@@ -12,8 +12,8 @@ eligible Weemas games that you own, sorted according to HLTB time.
 
 ## Some more details
 
-It needs permission to view "your" Google Sheets, but will of course only look at the sheet(s) specified in the source
-code. Google will warn you very carefully about this.
+You need to create an API project at [Google Developer Console](https://console.developers.google.com/), add the Sheets
+API and create Oauth credentials in order to run the app. Place the credentials file as `google_credentials.json`.
 
 This is based on my personal gaming habits, so I ignore HLTB's "Co-Op" and "Vs." game times, which might not be
 appropriate for other people. If there is interest, I might add configuration options for this.
